@@ -6,7 +6,6 @@
 
 [![PyPI version](https://badge.fury.io/py/sphinxcolor.svg)](https://badge.fury.io/py/sphinxcolor)
 [![Python Versions](https://img.shields.io/pypi/pyversions/sphinxcolor.svg)](https://pypi.org/project/sphinxcolor/)
-[![Django Versions](https://img.shields.io/badge/django-3.2%20%7C%204.0%20%7C%205.0-blue.svg)](https://www.djangoproject.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Documentation](https://img.shields.io/badge/docs-latest-brightgreen.svg)](https://sphinxcolor.readthedocs.io/)
 
