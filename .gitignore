@@ -12,3 +12,9 @@ sphinxcolor.egg-info*
 
 # Added entries (1 items)
 test/
+
+# Added entries (1 items)
+build/
+
+# Added entries (1 items)
+dist/
