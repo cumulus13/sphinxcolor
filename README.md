@@ -4,6 +4,17 @@
 
 `sphinxcolor` is a Python package that adds vibrant colors to `sphinx-build` output, making warnings, errors, and other messages easier to read and identify.
 
+[![PyPI version](https://badge.fury.io/py/sphinxcolor.svg)](https://badge.fury.io/py/sphinxcolor)
+[![Python Versions](https://img.shields.io/pypi/pyversions/sphinxcolor.svg)](https://pypi.org/project/sphinxcolor/)
+[![Django Versions](https://img.shields.io/badge/django-3.2%20%7C%204.0%20%7C%205.0-blue.svg)](https://www.djangoproject.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Documentation](https://img.shields.io/badge/docs-latest-brightgreen.svg)](https://sphinxcolor.readthedocs.io/)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cumulus13/sphinxcolor/master/screenshot.png" alt="Screenshot">
+</p>
+
+
 ## ✨ Features
 
 - 🎨 **Customizable Colors**: Configure colors via TOML file
