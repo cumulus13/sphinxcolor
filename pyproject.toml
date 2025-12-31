@@ -8,9 +8,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sphinxcolor"
-dynamic = [
-    "version",
-]
 description = "Colorize Sphinx build output with customizable colors"
 readme = "README.md"
 requires-python = ">=3.7"
@@ -30,7 +27,9 @@ keywords = [
     "terminal",
 ]
 classifiers = [
-    "Development Status :: 4 - Beta",
+    "Framework :: Sphinx",
+    "Framework :: Sphinx :: Extension",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
     "Topic :: Documentation",
     "Topic :: Software Development :: Documentation",
@@ -41,13 +40,14 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "Framework :: Sphinx :: Extension",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
 ]
 dependencies = [
     "rich>=13.0.0",
     "tomli>=2.0.0",
 ]
-version = "0.1.5"
+version = "0.1.6"
 
 [project.optional-dependencies]
 dev = [
@@ -80,9 +80,6 @@ include-package-data = true
 sphinxcolor = [
     "*.toml",
 ]
-
-[tool.setuptools.dynamic.version]
-attr = "sphinxcolor.__version__.version"
 
 [tool.black]
 line-length = 88
